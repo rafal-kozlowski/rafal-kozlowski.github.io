@@ -10,10 +10,44 @@ body {
 
 .container {
   display: flex;
-  width: 1240px;
+  /* width: 1240px; */
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
+}
+
+/* ----------main header----------- */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  min-width: max-content;
+  background-color: #26284b;
+}
+
+.name {
+  color: #fff;;
+}
+
+.navbar {
+  background-color: #26284b;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-link {
+  color: #fff;
+  padding-right: 1rem;
+  text-decoration: none;
+}
+
+.navbar-about-me {
+  min-width: 85px;
 }
 
 /* ----------hiding button----------- */
@@ -209,7 +243,6 @@ body {
 /* ========= right side of the resume ========= */
 
 .right-side {
-  width: 830px;
   padding-left: 80px;
   padding-right: 100px;
   padding-bottom: 68px;

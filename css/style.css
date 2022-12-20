@@ -3,14 +3,13 @@
 }
 
 body {
-  background-color: #f5f7fa;
+  background-color: rgb(254, 255, 250);
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
 .container {
   display: flex;
-  /* width: 1240px; */
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
@@ -22,13 +21,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 4rem;
   min-width: max-content;
   background-color: #26284b;
 }
 
 .name {
   color: #fff;;
+}
+
+.main-header-span {
+  font-family: 'Fasthand', cursive;
+  font-weight: lighter;
 }
 
 .navbar {
@@ -49,6 +53,36 @@ body {
 .navbar-about-me {
   min-width: 85px;
 }
+
+/* ----------main----------- */
+
+
+/* ----------about me section----------- */
+
+#about-me-container{
+  margin: 2rem 0;
+  padding: 0 4rem;
+}
+
+#about-me-container {
+  display: flex;
+}
+
+.photo {
+  width: 250px;
+  max-height: 322px;
+  border-radius: 7px;
+  margin-left: 4rem;
+}
+
+.about-me-text {
+  color: #26284b;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 1.714;
+}
+
+
 
 /* ----------hiding button----------- */
 
@@ -91,9 +125,7 @@ body {
   color: #fff;
 }
 
-.photo {
-  width: 410px;
-}
+
 
 .photo,
 .contacts,
@@ -264,14 +296,6 @@ body {
 .bio-occupation {
   margin-top: 0;
   margin-bottom: 27px;
-}
-
-.bio-occupation,
-.bio-about {
-  color: #26284b;
-  font-size: 14px;
-  text-align: justify;
-  line-height: 1.714;
 }
 
 .jobs-title,

@@ -54,17 +54,24 @@ body {
   min-width: 85px;
 }
 
-/* ----------main----------- */
+/* ----------general----------- */
 
+.dark-header {
+  color: #26284b;
+  text-decoration: underline;
+}
+
+.bright-header {
+  text-decoration: underline;
+}
 
 /* ----------about me section----------- */
 
-#about-me-container{
-  margin: 2rem 0;
-  padding: 0 4rem;
+#bright-container, #dark-container{
+  padding: 2rem 4rem;
 }
 
-#about-me-container {
+#bright-container {
   display: flex;
 }
 
@@ -82,7 +89,32 @@ body {
   line-height: 1.714;
 }
 
+/* ----------projects section----------- */
 
+#dark-container {
+  background-color: #26284b;
+  color: #fff;
+}
+
+.projects {
+  margin-top: 2rem;
+}
+
+.project-info, .project-description, .project-link {
+  padding-left: 1rem;
+}
+
+.project-info-row {
+  padding: 0.5rem 0;
+  text-align: start;
+  vertical-align: top;
+  min-width: 160px;
+}
+
+.bright-link {
+  color: #fff;
+  text-decoration: none;
+}
 
 /* ----------hiding button----------- */
 

@@ -56,6 +56,19 @@ body {
 
 /* ----------general----------- */
 
+.bright-container, .dark-container{
+  padding: 2rem 4rem;
+}
+
+.bright-container {
+  display: flex;
+}
+
+.dark-container {
+  background-color: #26284b;
+  color: #fff;
+}
+
 .dark-header {
   color: #26284b;
   text-decoration: underline;
@@ -65,15 +78,41 @@ body {
   text-decoration: underline;
 }
 
-/* ----------about me section----------- */
 
-#bright-container, #dark-container{
-  padding: 2rem 4rem;
-}
+/* ----------hiding button----------- */
 
-#bright-container {
+.header-container, 
+.header-container div,
+.hiding-button {
   display: flex;
+  align-items: center;
 }
+
+.header-container div {
+  padding-left: 3%;
+}
+
+.hiding-button {
+  /* position: absolute; */
+  margin-bottom: 0;
+  height: 15px;
+  background-color: transparent;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.hiding-button i {
+  margin: auto;
+}
+
+.education .hiding-button,
+.jobs .hiding-button {
+  border-color: #26284b;
+}
+
+
+/* ----------about me section----------- */
 
 .photo {
   width: 250px;
@@ -91,10 +130,7 @@ body {
 
 /* ----------projects section----------- */
 
-#dark-container {
-  background-color: #26284b;
-  color: #fff;
-}
+
 
 .projects {
   margin-top: 2rem;
@@ -114,39 +150,6 @@ body {
 .bright-link {
   color: #fff;
   text-decoration: none;
-}
-
-/* ----------hiding button----------- */
-
-.header-container, 
-.header-container div,
-.hiding-button {
-  display: flex;
-  align-items: center;
-}
-
-.header-container div {
-  padding-left: 3%;
-}
-
-.hiding-button {
-  /* position: absolute; */
-  margin-top: 20px;
-  margin-bottom: 0;
-  height: 15px;
-  background-color: transparent;
-  border-color: white;
-  border-width: 1px;
-  border-radius: 4px;
-}
-
-.hiding-button i {
-  margin: auto;
-}
-
-.education .hiding-button,
-.jobs .hiding-button {
-  border-color: #26284b;
 }
 
 /* ========= left side of the resume ========= */
@@ -330,38 +333,38 @@ body {
   margin-bottom: 27px;
 }
 
-.jobs-title,
+/* .jobs-title,
 .education-title {
   margin-top: 20px;
   margin-bottom: 0;
-  color: #26284b;
+  color: #fff;
   font-size: 22px;
   line-height: 1.091;
-  border-bottom: 2px solid #26284b;
-}
+  border-bottom: 2px solid #fff;
+} */
 
 .jobs-occupation,
 .education-degree {
   margin-bottom: 0;
-  color: #26284b;
+  color: #fff;
   font-size: 16px;
 }
 
 .jobs-time,
 .education-time {
   margin-top: 6px;
-  color: #828282;
+  color: #a09c9c;
   font-size: 12px;
 }
 
 .experience-item {
-  color: #595959;
+  color: #a09c9c;
   font-size: 14px;
   line-height: 1.714;
 }
 
 .accent {
-  color: #2196F3;
+  color: #21d4f3;
 }
 
 .form-container {

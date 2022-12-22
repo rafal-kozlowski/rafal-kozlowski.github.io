@@ -20,20 +20,21 @@
         <ul>
           <li class="navbar-about-me"><a href="#about-me-container" class="navbar-link">About Me</a></li>
           <li><a href="#projects-container" class="navbar-link">Projects</a></li>
-          <li><a href="" class="navbar-link">Skills</a></li>
-          <li><a href="" class="navbar-link">Education</a></li>
-          <li><a href="" class="navbar-link">Employment</a></li>
-          <li><a href="" class="navbar-link">Interests</a></li>
+          <li><a href="#skills-container" class="navbar-link">Skills</a></li>
+          <li><a href="#education-container" class="navbar-link">Education</a></li>
+          <li><a href="#employment-container" class="navbar-link">Employment</a></li>
+          <li><a href="#interests-container" class="navbar-link">Interests</a></li>
           <li><a href="" class="navbar-link">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="bright-container">
+      <section id="about-me-container" class="bright-container">
         <div class="about-me-text-container">
           <h2 class="dark-header">About Me</h2>
           <p class="about-me-text">
-            Hi! I am Rafał. From some time I am preparing for career path change into software engineering. I believe that my engineering education, solid project management and customer relations experience will help me to develop new set of skills quickly and make profound impact on the quality of my work.
+            Hi! I am Rafał. 
+            <br> From some time I am preparing for career path change into software engineering. I believe that my engineering education, solid project management and customer relations experience will help me to develop new set of skills quickly and make profound impact on the quality of my work.
             <br> I decided for this move because civil engineering industry, that I am currently connected with, and way of life that this industry gave me, does not make me feel fulfilled and satisfied. What is more, I feel like my current job is not as creative as I would like it to be.
             Since middle school I was learning in classes with informatics profile, but finally my life path took a different turn. Now I decided to turn it into the right direction.
             <br>What excites me the most in coding? How fast and simply you can transform the word into visual, dynamic objects. How you can create something out of nothing. How programs, websites and apps makes life easier for people all over the world.
@@ -42,7 +43,60 @@
         </div>
         <img src="./assets/_DSC9314b -PL.jpg" alt="photo Rafal Kozlowski" class="photo"/>
       </section>
-      <section id="dark-container">
+
+      <!-- education and courses -->
+
+      <section id="education-container" class="dark-container">
+      
+              <div class="header-container">
+                <h2 class="bright-header">Education & courses</h2>
+                <div>
+                    <button class="hiding-button" id="education-show">
+                      <i class='fas fa-caret-down' style='font-size:12px;color:#fff'></i>
+                    </button>
+                    <button class="hiding-button" id="education-hide">
+                      <i class='fas fa-caret-up' style='font-size:12px;color:#fff'></i>
+                    </button>
+                </div>
+              </div>
+    
+              <div id="education-content">
+                <h3 class="education-degree">
+                  Front-End Engineer, <span class="accent">Codecademy / Online course</span>
+                </h3>
+                <p class="education-time">ongoing</p>
+                <h3 class="education-degree">
+                  Git and GitHub from scratch, <span class="accent">UDEMY / Online course</span>
+                </h3>
+                <p class="education-time">2022</p>
+                <h3 class="education-degree">
+                  Basics of HTML and CSS, <span class="accent">GoIT / 6-day online marathon</span>
+                </h3>
+                <p class="education-time">2021</p>
+                <h3 class="education-degree">
+                  Front-End Developer, <span class="accent">Software Development Academy / Online course</span>
+                </h3>
+                <p class="education-time">2020</p>
+                <h3 class="education-degree">
+                  Project management, <span class="accent">Technical University of Lodz / Postgraduate studies</span>
+                </h3>
+                <p class="education-time">2018 - 2019</p>
+                <h3 class="education-degree">
+                  Civil engineering, <span class="accent">Technical University of Lodz / Master's degree</span>
+                </h3>
+                <p class="education-time">2013 - 2016</p>
+                <h3 class="education-degree">
+                  Civil engineering, <span class="accent">Technical University of Lodz / Bachelor's degree</span>
+                </h3>
+                <p class="education-time">2009 - 2013</p>
+              </div>
+      </section>
+      
+      <section id="skills-container" class="bright-container">
+        <h2 class="dark-header">Skills</h2>
+
+      </section>
+      <section id="projects-container" class="dark-container">
         <h2 class="bright-header">Projects</h2>
         <div class="projects">
           <div class="project">
@@ -125,7 +179,16 @@
           </div>
         </div>
       </section>
+      
+      <section id="employment-container" class="bright-container">
+        <h2 class="dark-header">Employment</h2>
 
+      </section>
+
+      <section id="interests-container" class="dark-container">
+        <h2 class="bright-header">Interests</h2>
+        
+      </section>
 
     </main>
     <div class="container">
@@ -294,51 +357,7 @@
           
         </section>
 
-        <!-- education and courses -->
-        <section class="education">
-          <div class="header-container">
-            <h2 class="education-title">Education & courses</h2>
-            <div>
-                <button class="hiding-button" id="education-show">
-                  <i class='fas fa-caret-down' style='font-size:12px;color:#26284b'></i>
-                </button>
-                <button class="hiding-button" id="education-hide">
-                  <i class='fas fa-caret-up' style='font-size:12px;color:#26284b'></i>
-                </button>
-            </div>
-          </div>
-
-          <div id="education-content">
-            <h3 class="education-degree">
-              Front-End Engineer, <span class="accent">Codecademy / Online course</span>
-            </h3>
-            <p class="education-time">ongoing</p>
-            <h3 class="education-degree">
-              Git and GitHub from scratch, <span class="accent">UDEMY / Online course</span>
-            </h3>
-            <p class="education-time">2022</p>
-            <h3 class="education-degree">
-              Basics of HTML and CSS, <span class="accent">GoIT / 6-day online marathon</span>
-            </h3>
-            <p class="education-time">2021</p>
-            <h3 class="education-degree">
-              Front-End Developer, <span class="accent">Software Development Academy / Online course</span>
-            </h3>
-            <p class="education-time">2020</p>
-            <h3 class="education-degree">
-              Project management, <span class="accent">Technical University of Lodz / Postgraduate studies</span>
-            </h3>
-            <p class="education-time">2018 - 2019</p>
-            <h3 class="education-degree">
-              Civil engineering, <span class="accent">Technical University of Lodz / Master's degree</span>
-            </h3>
-            <p class="education-time">2013 - 2016</p>
-            <h3 class="education-degree">
-              Civil engineering, <span class="accent">Technical University of Lodz / Bachelor's degree</span>
-            </h3>
-            <p class="education-time">2009 - 2013</p>
-          </div>
-        </section>
+   
 
         <!-- employment -->
         <section class="jobs">

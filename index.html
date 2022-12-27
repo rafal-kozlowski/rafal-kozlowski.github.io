@@ -343,45 +343,36 @@
       </section>
 
       <section id="interests-container" class="dark-container">
-        <h2 class="bright-header">Interests</h2>
-        
+        <div class="header-container">
+          <h2 class="bright-title">Interests</h2>
+          <div>
+              <button class="hiding-button" id="interest-show">
+                <i class='fas fa-caret-down' style='font-size:12px;color:white'></i>
+              </button>
+              <button class="hiding-button" id="interest-hide">
+                <i class='fas fa-caret-up' style='font-size:12px;color:white'></i>
+              </button>
+          </div>
+        </div>
+
+        <ul class="interests-list" id="interest-content">
+          <li>Martial Arts - 1 Dan Traditional Karate grade </li>
+          <li>Healthy lifestyle and personal growth</li>
+        </ul>
+      </section>
       </section>
 
     </main>
-    <div class="container">
       <!--=====================left side of the resume =====================-->
         <aside class="left-side">
-        
-        
-        
-              
-        <!-- interests -->
-        <section class="interests">
-          <div class="header-container">
-            <h2 class="interests-title">Interests</h2>
-            <div>
-                <button class="hiding-button" id="interest-show">
-                  <i class='fas fa-caret-down' style='font-size:12px;color:white'></i>
-                </button>
-                <button class="hiding-button" id="interest-hide">
-                  <i class='fas fa-caret-up' style='font-size:12px;color:white'></i>
-                </button>
-            </div>
-          </div>
 
-          <ul class="interests-list" id="interest-content">
-            <li>Martial Arts - 1 Dan Traditional Karate grade </li>
-            <li>Healthy lifestyle and personal growth</li>
-          </ul>
-        </section>
-
+       
         <!-- download widget -->
         <section class="widget">
             <a class="widget-link" href="./assets/Rafal_Kozlowski_Resume.pdf" download>Download Resume</a>
         </section>
       </aside>
-
-
+    
     <script src="./main.js"></script>
   </body>
 </html>

@@ -127,6 +127,20 @@ body {
   line-height: 1.714;
 }
 
+/* =================== education section ================== */
+
+.education-degree {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+.education-time {
+  margin-top: 6px;
+  color: #a09c9c;
+  font-size: 12px;
+}
+
 /* ----------projects section----------- */
 
 .projects {
@@ -149,7 +163,8 @@ body {
   text-decoration: none;
 }
 
-/* ----------skills section----------- */
+/* =================== skills section ================== */
+
 .skills-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -209,34 +224,32 @@ body {
   font-size: 0.9rem;
 }
 
+/* ========= employment section ========= */
 
-/* ========= left side of the resume ========= */
-
-.left-side {
-  /* width: 410px; */
-  background-color: #26284b;
-  color: #26284b;
-}
-
-
-
-.photo,
-.contacts {
-  margin-bottom: 10px;
-}
-
-.contacts,
-.activities,
-.interests {
-  padding-left: 20px;
-}
-
-.contacts-title,
-.activities-title,
-.interests-title {
-  margin-top: 20px;
+.jobs-occupation {
   margin-bottom: 0;
+  color: #26284b;
+  font-size: 16px;
 }
+
+.jobs-time {
+  margin-top: 6px;
+  color: #595959;
+  font-size: 12px;
+}
+
+.experience-item {
+  color: #595959;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.accent {
+  color: #21d4f3;
+}
+
+
+/* ========= contacts ========= */
 
 .contacts-title {
   color: #26284b;
@@ -289,6 +302,8 @@ body {
   font-size: 0.9rem;
 }
 
+/* =================== widget ================== */
+
 .widget {
   display: flex;
   justify-content: center;
@@ -321,65 +336,9 @@ body {
   animation: pulse 1s;
 }
 
-/* ========= right side of the resume ========= */
+/* ========= form ========= */
 
-.right-side {
-  padding-left: 80px;
-  padding-right: 100px;
-  padding-bottom: 68px;
-}
 
-.bio,
-.jobs,
-.education {
-  margin-bottom: 35px;
-}
-
-.bio-title {
-  padding: 0;
-  font-size: 45px;
-  margin-bottom: 5px;
-  color: #26284b;
-}
-
-.bio-occupation {
-  margin-top: 0;
-  margin-bottom: 27px;
-}
-
-/* .jobs-title,
-.education-title {
-  margin-top: 20px;
-  margin-bottom: 0;
-  color: #fff;
-  font-size: 22px;
-  line-height: 1.091;
-  border-bottom: 2px solid #fff;
-} */
-
-.jobs-occupation,
-.education-degree {
-  margin-bottom: 0;
-  color: #fff;
-  font-size: 16px;
-}
-
-.jobs-time,
-.education-time {
-  margin-top: 6px;
-  color: #a09c9c;
-  font-size: 12px;
-}
-
-.experience-item {
-  color: #a09c9c;
-  font-size: 14px;
-  line-height: 1.714;
-}
-
-.accent {
-  color: #21d4f3;
-}
 
 .form-container {
   background-color: #26284b;

@@ -7,13 +7,13 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
-
+/* 
 .container {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
-}
+} */
 
 /* ----------main header----------- */
 
@@ -169,15 +169,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* ----------software&languages----------- */
-.skills {
-  padding-top: 5px;
-  padding-bottom: 5px; 
-  color: #26284b; 
-  padding-left: 20px;
-}
-
-.software-skills-title {
+.skills-title {
   color: #26284b;
   font-size: 22px;
   font-weight: 700;
@@ -185,6 +177,14 @@ body {
   margin-top: 20px;
   margin-bottom: 0;
 }
+
+/* ----------software&languages----------- */
+.skills, 
+.activities {
+  padding: 5px 0 5px 20px;
+  color: #26284b; 
+}
+
 
 .skill-name{
   margin-top: 12px;
@@ -221,6 +221,21 @@ body {
   margin: 0;
   padding-left: 3%;
   font-size: 0.9rem;
+}
+
+/* ----------activities----------- */
+
+.activities-list {
+list-style: none;  
+padding-left: 0;
+}
+
+.activities-list li {
+  display: flex;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  color: #26284b;
+  text-align: justify;
 }
 
 /* ========= employment section ========= */

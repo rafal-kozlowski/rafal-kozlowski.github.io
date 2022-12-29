@@ -74,7 +74,14 @@ body {
   text-decoration: underline;
 }
 
-
+.about-me-content,
+.interests-list,
+#education-content,
+#projects-content,
+#employment-content,
+#skills-grid-container {
+  padding: 0 2rem;
+}
 /* ----------hiding button----------- */
 
 .header-container, 
@@ -108,8 +115,9 @@ body {
 
 /* ----------about me section----------- */
 
-#about-me-container {
+.about-me-content {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .photo {

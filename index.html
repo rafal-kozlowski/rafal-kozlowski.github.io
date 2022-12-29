@@ -29,6 +29,8 @@
       </nav>
     </header>
     <main>
+
+      <!------------ About me ------------>
       <section id="about-me-container" class="bright-container">
         <div class="about-me-text-container">
           <h2 class="dark-header">About Me</h2>
@@ -44,8 +46,7 @@
         <img src="./assets/_DSC9314b -PL.jpg" alt="photo Rafal Kozlowski" class="photo"/>
       </section>
 
-      <!-- education and courses -->
-
+      <!------------ Education and courses ------------>
       <section id="education-container" class="dark-container">
       
               <div class="header-container">
@@ -91,7 +92,8 @@
                 <p class="education-time">2009 - 2013</p>
               </div>
       </section>
-      
+
+      <!------------ Skills ------------>
       <section id="skills-container" class="bright-container">
         <div class="header-container">
           <h2 class="dark-header">Skills</h2>
@@ -105,8 +107,9 @@
             </div>
           </div>
           
-        <div class="skills-grid-container">
+        <div id="skills-grid-container">
           <section class="skills">
+            <!-- software&languages -->
             <h2 class="software-skills-title">Software & Languages</h2>
           
             <div id="software-skill-content">
@@ -135,18 +138,11 @@
               </div>
             </div>
           </section>
+
           <!-- soft skills -->
           <section class="skills">
             <div class="header-container">
               <h2 class="skills-title">Soft Skills</h2>
-              <div>
-                  <button class="hiding-button" id="soft-skill-show">
-                    <i class='fas fa-caret-down' style='font-size:12px;color:#26284b'></i>
-                  </button>
-                  <button class="hiding-button" id="soft-skill-hide">
-                    <i class='fas fa-caret-up' style='font-size:12px;color:#26284b'></i>
-                  </button>
-              </div>
             </div>
             <div id="soft-skill-content">
               <p class="skills-name">Scrum</p>
@@ -175,14 +171,6 @@
           <section class="activities">
             <div class="header-container">
               <h2 class="activities-title">Additional activities</h2>
-              <div>
-                  <button class="hiding-button" id="activities-show">
-                    <i class='fas fa-caret-down' style='font-size:12px;color:#26284b'></i>
-                  </button>
-                  <button class="hiding-button" id="activities-hide">
-                    <i class='fas fa-caret-up' style='font-size:12px;color:#26284b'></i>
-                  </button>
-              </div>
             </div>
             <ul class="activities-list" id="activities-content">
               <li>PRINCE2 Foundation - accredited course with exam on foundation grade </li>
@@ -193,10 +181,22 @@
         </div>
       </section>
 
+      <!------------ Projects ------------>
+      <section class="dark-container">
 
-      <section id="projects-container" class="dark-container">
-        <h2 class="bright-header">Projects</h2>
-        <div class="projects">
+        <div class="header-container">
+          <h2 class="bright-header">Projects</h2>
+          <div>
+              <button class="hiding-button" id="show-button">
+                <i class='fas fa-caret-down' style='font-size:12px;color:#fff'></i>
+              </button>
+              <button class="hiding-button" id="hide-button">
+                <i class='fas fa-caret-up' style='font-size:12px;color:#fff'></i>
+              </button>
+          </div>
+        </div>
+        
+        <div id="projects-content" class="projects">
           <div class="project">
             <h3>Portfolio Website</h3>
             <table class="project-info">

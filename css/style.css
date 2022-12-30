@@ -22,12 +22,15 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 4rem;
+  height: min-content;
   min-width: max-content;
   background-color: #26284b;
 }
 
 .name {
-  color: #fff;;
+  margin: 0;
+  padding: 1.5rem 0;
+  color: #fff;
 }
 
 .main-header-span {
@@ -82,6 +85,22 @@ body {
 #skills-grid-container {
   padding: 0 2rem;
 }
+
+/* ----------home button----------- */
+.scroll-button {
+  position: fixed;
+  margin-top: 20px;
+  right: 10px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
 /* ----------hiding button----------- */
 
 .header-container, 

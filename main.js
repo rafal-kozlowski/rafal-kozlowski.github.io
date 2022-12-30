@@ -1,3 +1,18 @@
+// //========== home button ==========//
+let homeButton = document.getElementById('home-button');
+
+function showHomeButton() {
+    let y = window.scrollY;
+    let mainNameHeight = document.getElementById('main-name').offsetHeight;
+    if (y > mainNameHeight) {
+        homeButton.className = "scroll-button show";
+    } else {
+        homeButton.className = "scroll-button hide";
+    }
+}
+
+window.addEventListener('scroll', showHomeButton);
+
 //========== education hiding button ==========//
 
 let educationShow = document.getElementById('education-show');
@@ -114,11 +129,11 @@ let interestContent = document.getElementById('interest-content');
 interestHide.style.display = 'none';
 interestContent.style.display = 'none';
 
-const hideInterestContent = () => {
-    interestContent.style.display ='none';
+function hideInterestContent() {
+    interestContent.style.display = 'none';
     interestHide.style.display = 'none';
     interestShow.style.display = '';
-};
+}
 
 interestHide.onclick = hideInterestContent;
 

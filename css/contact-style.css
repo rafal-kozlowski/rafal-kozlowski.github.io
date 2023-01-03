@@ -1,4 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2D3D61;
+}
+
 /* ========= contact ========= */
+
+.contacts,
+.form-container {
+  margin: 5% 20%;
+  padding: 2% 4%;
+  border-radius: 8px;
+}
+
+.contacts {
+  background-color: #fff;
+}
 
 .contacts-title {
     color: #26284b;
@@ -17,34 +36,72 @@
     align-items: center;
     margin-bottom: 14px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 24px;
     color: #26284b;
   }
   
   .contacts-link {
     padding-left: 14px;
-    opacity: 0.6;
     color: #26284b;
     text-decoration: none;
   }
   
   .contacts-link:hover {
-    opacity: 1;
+    font-size: 15px;
     text-decoration: underline;
   }
+
   
-  .activities-list,
-  .interests-list {
-    padding-left: 20px;
-    width: 90%;
-    text-align: justify;
-    line-height: 1.5;
-  }
-  
-  .activities-list li, .interests-list li {
-    margin-top: 5px;
-    font-size: 0.9rem;
-  }
-  
-  
+  /* ========= form ========= */
+
+.form-container {
+  background-color: #26284b;
+}
+
+.form-container h4 {
+  margin: 5px auto;
+  padding-top: 10px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.form-email-area,
+.form-textarea,
+.send-button {
+  padding: 5px;
+  border: 3px solid #2196F3;
+  border-radius: 5px;
+}
+
+.form-textarea {
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+}
+
+.send-button {
+  margin: 2% auto;
+  width: 20%;
+  background-color: #2196F3;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.send-button:hover {
+  cursor: pointer;
+}
+
+.send-button:active {
+  cursor: pointer;
+  box-shadow: 4px 4px 4px #4ea5ec;
+
+}

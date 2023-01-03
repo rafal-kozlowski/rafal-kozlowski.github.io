@@ -274,6 +274,20 @@ padding-left: 0;
   text-align: justify;
 }
 
+  
+/* .activities-list,
+.interests-list {
+  padding-left: 20px;
+  width: 90%;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.activities-list li, .interests-list li {
+  margin-top: 5px;
+  font-size: 0.9rem;
+} */
+
 /* =================== employment section ================== */
 
 .jobs-occupation {
@@ -350,62 +364,10 @@ padding-left: 0;
 .footer {
   display: flex;
   justify-content: center;
-  padding: 1rem 0;
+  padding: 0.2% 0;
   background-color: #26284b;
   color: #fff;
 }
 
 
-/* ========= form ========= */
 
-.form-container {
-  background-color: #26284b;
-  border-radius: 7px;
-}
-
-.form-container h4 {
-  margin: 5px auto;
-  padding-top: 10px;
-  color: #fff;
-  text-align: center;
-  font-weight: 400;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.form-email-area,
-.form-textarea,
-.send-button {
-  padding: 5px;
-  border: 3px solid #2196F3;
-  border-radius: 5px;
-}
-
-.form-textarea {
-  font-family: 'Roboto', sans-serif;
-  margin: 10px 0;
-}
-
-.send-button {
-  margin: 0 auto;
-  width: 20%;
-  background-color: #2196F3;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  box-shadow: 4px 4px 4px #4ea5ec;
-}
-
-.send-button:hover {
-  cursor: pointer;
-}
-
-.send-button:active {
-  cursor: pointer;
-  box-shadow: none;
-}

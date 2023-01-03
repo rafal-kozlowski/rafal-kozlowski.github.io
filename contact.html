@@ -16,6 +16,22 @@
     <script src="https://kit.fontawesome.com/284f175159.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!------------ Header and navigation ------------>
+    <header id="main-navigation "class="main-header">
+      <h1 id="main-name" class="name">Rafał Kozłowski <span class="main-header-span">portfolio site</span></h1>
+      <nav class="navbar">
+        <ul>
+          <li class="navbar-about-me"><a href="./index.html#about-me-container" class="navbar-link">About Me</a></li>
+          <li><a href="./index.html#education-container" class="navbar-link">Education</a></li>
+          <li><a href="./index.html#skills-container" class="navbar-link">Skills</a></li>
+          <li><a href="./index.html#projects-container" class="navbar-link">Projects</a></li>
+          <li><a href="./index.html#employment-container" class="navbar-link">Employment</a></li>
+          <li><a href="./index.html#interests-container" class="navbar-link">Interests</a></li>
+          <li><a href="./contact.html" class="navbar-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main class="contact-main-container">
 
       <!-- contact -->
@@ -25,6 +41,10 @@
            </div>
 
           <ul class="contacts-list" id="contact-content">
+            <li class="contacts-item">
+              <i class='fab fa-linkedin-in' style='font-size:24px;color:#26284b'></i>
+              <a href="linkedin.com/in/rafał-kozłowski-6a4661137" class="contacts-link">linkedin.com/in/rafał-kozłowski</a>
+            </li>
             <li class="contacts-item">
               <i class='fas fa-mobile-alt' style='font-size:24px;color:#26284b'></i>
               <a href="tel:+48 601 914 103" class="contacts-link">+48 601 914 103</a>
@@ -47,6 +67,11 @@
           </form>
         </section>
     </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p class="copyright">Copyright &copy; <span id="current-year"></span> Rafał Kozłowski</p>
+    </footer>
 
     <script src="./contact.js"></script>
 </body>

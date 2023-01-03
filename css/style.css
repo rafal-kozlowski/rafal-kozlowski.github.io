@@ -1,5 +1,11 @@
+/* ----------general----------- */
+
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -8,7 +14,6 @@ body {
   margin: 0;
 }
 
-/* ----------general----------- */
 
 .bright-container, .dark-container{
   padding: 2rem 4rem;

@@ -9,24 +9,31 @@ html {
 }
 
 body {
-  background-color: rgb(255, 250, 250);
+  background-color:#2D3D61;
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
 
 .bright-container, .dark-container{
-  padding: 2rem 4rem;
+  /* padding: 2rem 4rem; */
+  margin: 3% 15%;
+  padding: 2% 4%;
+  border-radius: 8px;
 }
 
 .dark-container {
-  background-color: #2D3D61;
+  background-color: #26284b;
   color: #fff;
 }
 
 .dark-header {
   color: #26284b;
   text-decoration: underline;
+}
+
+.bright-container {
+  background-color: #fff;
 }
 
 .bright-header {

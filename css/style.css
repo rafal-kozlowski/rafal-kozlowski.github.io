@@ -7,55 +7,6 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
-/* 
-.container {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fff;
-} */
-
-/* ----------main header----------- */
-
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 4rem;
-  height: min-content;
-  min-width: max-content;
-  background-color: #26284b;
-}
-
-.name {
-  margin: 0;
-  padding: 1.5rem 0;
-  color: #fff;
-}
-
-.main-header-span {
-  font-family: 'Fasthand', cursive;
-  font-weight: lighter;
-}
-
-.navbar {
-  background-color: #26284b;
-}
-
-.navbar ul {
-  display: flex;
-  list-style: none;
-}
-
-.navbar-link {
-  color: #fff;
-  padding-right: 1rem;
-  text-decoration: none;
-}
-
-.navbar-about-me {
-  min-width: 85px;
-}
 
 /* ----------general----------- */
 
@@ -132,7 +83,51 @@ body {
 }
 
 
-/* ----------about me section----------- */
+
+/* =================== main header ================== */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  height: min-content;
+  min-width: max-content;
+  background-color: #26284b;
+}
+
+.name {
+  margin: 0;
+  padding: 1.5rem 0;
+  color: #fff;
+}
+
+.main-header-span {
+  font-family: 'Fasthand', cursive;
+  font-weight: lighter;
+}
+
+.navbar {
+  background-color: #26284b;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-link {
+  color: #fff;
+  padding-right: 1rem;
+  text-decoration: none;
+}
+
+.navbar-about-me {
+  min-width: 85px;
+}
+
+
+/* =================== about me section ================== */
 
 .about-me-content {
   display: flex;
@@ -167,7 +162,7 @@ body {
   font-size: 12px;
 }
 
-/* ----------projects section----------- */
+/* =================== projects section ================== */
 
 .projects {
   margin-top: 2rem;
@@ -265,7 +260,7 @@ padding-left: 0;
   text-align: justify;
 }
 
-/* ========= employment section ========= */
+/* =================== employment section ================== */
 
 .jobs-occupation {
   margin-bottom: 0;
@@ -289,7 +284,7 @@ padding-left: 0;
   color: #21d4f3;
 }
 
-/* ========= interests section ========= */
+/* =================== interests section ================== */
 
 .interests-list {
   list-style: none;
@@ -300,6 +295,7 @@ padding-left: 0;
   text-align: justify;
   
 }
+
 
 /* =================== widget ================== */
 
@@ -335,9 +331,18 @@ padding-left: 0;
   animation: pulse 1s;
 }
 
+/* =================== footer ================== */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: #26284b;
+  color: #fff;
+}
+
+
 /* ========= form ========= */
-
-
 
 .form-container {
   background-color: #26284b;
@@ -390,11 +395,3 @@ padding-left: 0;
   cursor: pointer;
   box-shadow: none;
 }
-
-/* ============== hiding elements to print pdf file ============== */
-/* 
-.header-container div,
-.widget,
-.form-container {
-  display: none;
-} */

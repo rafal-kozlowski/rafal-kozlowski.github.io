@@ -144,3 +144,9 @@ const showInterestContent = () => {
 };
 
 interestShow.onclick = showInterestContent;
+
+//========== footer current year ==========//
+
+let currentYear = document.getElementById('current-year');
+
+currentYear.innerHTML = new Date().getFullYear();

@@ -118,12 +118,21 @@ body {
 
 .navbar-link {
   color: #fff;
-  padding-right: 1rem;
+  padding: 0.5rem 0.5rem;
   text-decoration: none;
+  border-radius: 4px;
 }
 
 .navbar-about-me {
   min-width: 85px;
+}
+
+.navbar-link:hover {
+  background-color: #2196F3;
+}
+
+.navbar-link:active {
+border: 2px solid #2196F3;
 }
 
 

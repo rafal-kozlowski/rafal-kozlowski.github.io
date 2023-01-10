@@ -16,7 +16,6 @@ body {
 
 
 .bright-container, .dark-container{
-  /* padding: 2rem 4rem; */
   margin: 3% 15%;
   padding: 2% 4%;
   border-radius: 8px;
@@ -191,6 +190,7 @@ border: 2px solid #2196F3;
 
 .project-info, .project-description, .project-link {
   padding-left: 1rem;
+  text-align: justify;
 }
 
 .project-info-row {

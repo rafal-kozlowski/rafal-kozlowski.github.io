@@ -182,28 +182,7 @@ border: 2px solid #2196F3;
   font-size: 12px;
 }
 
-/* =================== projects section ================== */
 
-.projects {
-  margin-top: 2rem;
-}
-
-.project-info, .project-description, .project-link {
-  padding-left: 1rem;
-  text-align: justify;
-}
-
-.project-info-row {
-  padding: 0.5rem 0;
-  text-align: start;
-  vertical-align: top;
-  min-width: 160px;
-}
-
-.bright-link {
-  color: #fff;
-  text-decoration: none;
-}
 
 /* =================== skills section ================== */
 
@@ -281,19 +260,33 @@ padding-left: 0;
   text-align: justify;
 }
 
-  
-/* .activities-list,
-.interests-list {
-  padding-left: 20px;
-  width: 90%;
-  text-align: justify;
-  line-height: 1.5;
+/* =================== projects section ================== */
+
+.projects {
+  margin-top: 2rem;
 }
 
-.activities-list li, .interests-list li {
-  margin-top: 5px;
-  font-size: 0.9rem;
-} */
+.project-info-row {
+  padding: 0.5rem 0;
+  text-align: start;
+  vertical-align: top;
+  min-width: 160px;
+}
+
+.project-description {
+  padding: 0.5rem 0;
+  text-align: justify;
+}
+
+.project-description ul {
+  margin: 0;
+  text-align: start;
+}
+
+.bright-link {
+  color: #fff;
+  text-decoration: none;
+}
 
 /* =================== employment section ================== */
 

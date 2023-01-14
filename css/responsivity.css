@@ -1,0 +1,52 @@
+@media only screen and (max-width: 960px) {
+    /* ========= main-header/navigation ========== */
+
+    .main-header {
+        display: block;
+    }
+
+    .name {
+        padding: 0.5rem 0;
+        text-align: center;
+    }
+
+    .navbar ul {
+        padding-left: 0;
+        padding-bottom: 1rem;
+    }
+
+
+    /* ========= about me ========== */
+     
+    .about-me-content {
+     display: block;
+    }
+
+    .photo {
+        display: block;
+        margin: auto;
+    }
+
+    .about-me-text {
+        max-height: 580px;
+        padding-right: 2%;
+        overflow: auto;
+    }
+
+    /* ========= skills ========== */
+
+    #skills-grid-container {
+        display: block;
+    }
+
+    /* ========= projects ========== */
+
+    .projects {
+        font-size: 90%;
+    }
+
+    .projects-info-row {
+        min-width: 100px;
+    }
+
+}

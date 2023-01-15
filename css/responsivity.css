@@ -11,6 +11,7 @@
     }
 
     .navbar ul {
+        justify-content: center;
         padding-left: 0;
         padding-bottom: 1rem;
     }
@@ -48,5 +49,28 @@
     .projects-info-row {
         min-width: 100px;
     }
+}
 
+@media only screen and (max-width: 650px) {
+    /* ========= main-header/navigation ========== */
+
+    .navbar ul {
+        display: block;
+    }
+
+    .navbar li{
+        padding-top: 3%;
+    }
+
+    /* ========= about me ========== */
+     
+    .photo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .about-me-text {
+        max-height: 350px;
+        font-size: 80%;
+     }
 }

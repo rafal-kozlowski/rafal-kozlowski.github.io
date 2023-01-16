@@ -127,11 +127,17 @@ body {
   list-style: none;
 }
 
+
 .navbar-link {
   color: #fff;
   padding: 0.5rem 0.5rem;
   text-decoration: none;
   border-radius: 4px;
+}
+
+#contact {
+  color: #21d4f3;
+  font-weight: 600;
 }
 
 .navbar-about-me {
@@ -146,6 +152,13 @@ body {
 border: 2px solid #2196F3;
 }
 
+#contact:hover {
+  color: #fff;
+}
+
+#contact:active {
+  color: #fff;
+}
 
 /* =================== about me section ================== */
 

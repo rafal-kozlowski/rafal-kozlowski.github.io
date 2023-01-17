@@ -3,6 +3,7 @@
 let educationShow = document.getElementById('education-show');
 let educationHide = document.getElementById('education-hide');
 let educationContent = document.getElementById('education-content');
+let educationNavLink = document.getElementById('education-nav-link');
 
 educationHide.style.display = 'none';
 educationContent.style.display = 'none';
@@ -22,6 +23,7 @@ const showEducationContent = () => {
 };
 
 educationShow.onclick = showEducationContent;
+educationNavLink.onclick = showEducationContent;
 
 
 //========== skills hiding button ==========//
@@ -29,6 +31,7 @@ educationShow.onclick = showEducationContent;
 let skillShow = document.getElementById('software-skill-show');
 let skillHide = document.getElementById('software-skill-hide');
 let skillContent = document.getElementById('skills-grid-container');
+let skillsNavLink = document.getElementById('skills-nav-link');
 
 skillHide.style.display = 'none';
 skillContent.style.display = 'none';
@@ -48,12 +51,14 @@ const showSkillContent = () => {
 };
 
 skillShow.onclick = showSkillContent;
+skillsNavLink.onclick = showSkillContent;
 
 //========== projects hiding button ==========//
 
 let show = document.getElementById('show-button');
 let hide = document.getElementById('hide-button');
 let projectsContent = document.getElementById('projects-content');
+let projectsNavLink = document.getElementById('projects-nav-link');
 
 hide.style.display = 'none';
 projectsContent.style.display = 'none';
@@ -79,12 +84,15 @@ const showProjectsContent = () => {
 }
 
 show.addEventListener('click', () => {showProjectsContent(); showButtonFire()});
+projectsNavLink.addEventListener('click', () => {showProjectsContent(); showButtonFire()});
+
 
 //========== employment hiding button ==========//
 
 let employmentShow = document.getElementById('employment-show');
 let employmentHide = document.getElementById('employment-hide');
 let employmentContent = document.getElementById('employment-content');
+let employmentNavLink = document.getElementById('employment-nav-link');
 
 employmentHide.style.display = 'none';
 employmentContent.style.display = 'none';
@@ -104,12 +112,14 @@ const showEmploymentContent = () => {
 };
 
 employmentShow.onclick = showEmploymentContent;
+employmentNavLink.onclick = showEmploymentContent;
 
 //========== interest hiding button ==========//
 
 let interestShow = document.getElementById('interest-show');
 let interestHide = document.getElementById('interest-hide');
 let interestContent = document.getElementById('interest-content');
+let interestsNavLink = document.getElementById('interests-nav-link');
 
 interestHide.style.display = 'none';
 interestContent.style.display = 'none';
@@ -129,3 +139,5 @@ const showInterestContent = () => {
 };
 
 interestShow.onclick = showInterestContent;
+interestsNavLink.onclick = showInterestContent;
+

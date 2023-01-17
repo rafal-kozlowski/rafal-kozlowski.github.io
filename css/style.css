@@ -377,11 +377,38 @@ padding-left: 0;
 
 .footer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 0.2% 0;
   background-color: #26284b;
   color: #fff;
 }
 
+/* ----- footer contact ----- */
 
+.contact-footer {
+  display: none;
+}
+
+.contact-footer ul {
+  list-style: none;
+}
+
+.footer-contacts-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.footer-contacts-link {
+  color: #fff;
+  padding-left: 14px;
+  font-size: 90%;
+  text-decoration: none;
+}
+
+.footer-contacts-link:hover{
+  font-size: 95%;
+  text-decoration: underline;
+}
 

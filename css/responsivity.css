@@ -58,15 +58,9 @@
         display: block;
     }
 
-    .navbar ul {
-        display: block;
+    .navbar {
+        display: none;
     }
-
-    .navbar li{
-        padding-top: 3%;
-    }
-
-    /* ========= about me ========== */
      
     .photo {
         max-width: 100%;
@@ -77,4 +71,11 @@
         max-height: 350px;
         font-size: 80%;
      }
+
+    /* ----- footer contact ----- */
+
+    .contact-footer {
+        display: block;
+    }
+
 }

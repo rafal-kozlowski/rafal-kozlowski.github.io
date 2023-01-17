@@ -276,25 +276,27 @@ padding-left: 0;
 
 /* =================== projects section ================== */
 
-.projects {
-  margin-top: 2rem;
+.project {
+  display: grid;
+  grid-template: 60px 60px minmax(115px, 165px) repeat(2, 1fr) / 1fr 2fr;
+  align-items: start;
 }
 
-.project-info-row {
-  padding: 0.5rem 0;
-  text-align: start;
-  vertical-align: top;
-  min-width: 160px;
+.project-title {
+  grid-column: 1 / 3;
 }
 
-.project-description {
-  padding: 0.5rem 0;
-  text-align: justify;
+.property-title {
+  grid-column: 1fr;
+  padding-left: 3rem;
 }
 
-.project-description ul {
-  margin: 0;
-  text-align: start;
+.property-content {
+  grid-column: 2fr;
+}
+
+.property-title, .property-content {
+  margin-top: 0.5rem;
 }
 
 .bright-link {

@@ -46,9 +46,10 @@
         font-size: 90%;
     }
 
-    .projects-info-row {
-        min-width: 100px;
+    .property-title {
+        padding-left: 0.5rem;
     }
+
 }
 
 @media only screen and (max-width: 650px) {
@@ -71,6 +72,12 @@
         max-height: 350px;
         font-size: 80%;
      }
+     
+    /* ========= main-header/navigation ========== */
+
+    .project {
+        display: block;
+    }
 
     /* ----- footer contact ----- */
 

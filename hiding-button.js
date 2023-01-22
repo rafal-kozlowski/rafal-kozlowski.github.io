@@ -1,143 +1,117 @@
-//========== education hiding button ==========//
+//========== variables ========== //
+
+//----- education -----//
 
 let educationShow = document.getElementById('education-show');
 let educationHide = document.getElementById('education-hide');
 let educationContent = document.getElementById('education-content');
 let educationNavLink = document.getElementById('education-nav-link');
 
-educationHide.style.display = 'none';
-educationContent.style.display = 'none';
-
-const hideEducationContent = () => {
-    educationContent.style.display ='none';
-    educationHide.style.display = 'none';
-    educationShow.style.display = '';
-};
-
-educationHide.onclick = hideEducationContent;
-
-const showEducationContent = () => {
-    educationContent.style.display = '';
-    educationHide.style.display = '';
-    educationShow.style.display = 'none';
-};
-
-educationShow.onclick = showEducationContent;
-educationNavLink.onclick = showEducationContent;
-
-
-//========== skills hiding button ==========//
+//----- skills -----//
 
 let skillShow = document.getElementById('software-skill-show');
 let skillHide = document.getElementById('software-skill-hide');
 let skillContent = document.getElementById('skills-grid-container');
 let skillsNavLink = document.getElementById('skills-nav-link');
 
-skillHide.style.display = 'none';
-skillContent.style.display = 'none';
+//----- projects -----//
 
-const hideSkillContent = () => {
-    skillContent.style.display ='none';
-    skillHide.style.display = 'none';
-    skillShow.style.display = '';
-};
-
-skillHide.onclick = hideSkillContent;
-
-const showSkillContent = () => {
-    skillContent.style.display = '';
-    skillHide.style.display = '';
-    skillShow.style.display = 'none';
-};
-
-skillShow.onclick = showSkillContent;
-skillsNavLink.onclick = showSkillContent;
-
-//========== projects hiding button ==========//
-
-let show = document.getElementById('show-button');
-let hide = document.getElementById('hide-button');
+let projectsShow = document.getElementById('show-button');
+let projectsHide = document.getElementById('hide-button');
 let projectsContent = document.getElementById('projects-content');
 let projectsNavLink = document.getElementById('projects-nav-link');
 
-hide.style.display = 'none';
-projectsContent.style.display = 'none';
-
-const hideButtonFire = () => {
-    hide.style.display = 'none';
-    show.style.display = '';
-}
-
-const hideProjectsContent = () => {
-    projectsContent.style.display = 'none';
-}
-
-hide.addEventListener('click', () => {hideProjectsContent(); hideButtonFire()});
-
-const showButtonFire = () => {
-    show.style.display = 'none';
-    hide.style.display = '';
-}
-
-const showProjectsContent = () => {
-    projectsContent.style.display = '';
-}
-
-show.addEventListener('click', () => {showProjectsContent(); showButtonFire()});
-projectsNavLink.addEventListener('click', () => {showProjectsContent(); showButtonFire()});
-
-
-//========== employment hiding button ==========//
+//----- employment -----//
 
 let employmentShow = document.getElementById('employment-show');
 let employmentHide = document.getElementById('employment-hide');
 let employmentContent = document.getElementById('employment-content');
 let employmentNavLink = document.getElementById('employment-nav-link');
 
-employmentHide.style.display = 'none';
-employmentContent.style.display = 'none';
-
-const hideEmploymentContent = () => {
-    employmentContent.style.display ='none';
-    employmentHide.style.display = 'none';
-    employmentShow.style.display = '';
-};
-
-employmentHide.onclick = hideEmploymentContent;
-
-const showEmploymentContent = () => {
-    employmentContent.style.display = '';
-    employmentHide.style.display = '';
-    employmentShow.style.display = 'none';
-};
-
-employmentShow.onclick = showEmploymentContent;
-employmentNavLink.onclick = showEmploymentContent;
-
-//========== interest hiding button ==========//
+//----- interests -----//
 
 let interestShow = document.getElementById('interest-show');
 let interestHide = document.getElementById('interest-hide');
 let interestContent = document.getElementById('interest-content');
 let interestsNavLink = document.getElementById('interests-nav-link');
 
+
+//========== style ========== //
+
+//----- education -----//
+educationHide.style.display = 'none';
+educationContent.style.display = 'none';
+//----- skills -----//
+skillHide.style.display = 'none';
+skillContent.style.display = 'none';
+//----- projects -----//
+projectsHide.style.display = 'none';
+projectsContent.style.display = 'none';
+//----- employment -----//
+employmentHide.style.display = 'none';
+employmentContent.style.display = 'none';
+//----- interests -----//
 interestHide.style.display = 'none';
 interestContent.style.display = 'none';
 
-function hideInterestContent() {
-    interestContent.style.display = 'none';
-    interestHide.style.display = 'none';
-    interestShow.style.display = '';
-}
 
-interestHide.onclick = hideInterestContent;
 
-const showInterestContent = () => {
-    interestContent.style.display = '';
-    interestHide.style.display = '';
-    interestShow.style.display = 'none';
+//========== hiding button functions ========== //
+
+const hideContent = (content, hide, show) => {
+    content.style.display ='none';
+    hide.style.display = 'none';
+    show.style.display = '';
 };
 
-interestShow.onclick = showInterestContent;
-interestsNavLink.onclick = showInterestContent;
+const showContent = (content, hide, show) => {
+    content.style.display = '';
+    hide.style.display = '';
+    show.style.display = 'none';
+};
 
+
+
+//========== events ========== //
+
+//----- education -----//
+
+educationHide.addEventListener('click', () => {hideContent(educationContent, educationHide, educationShow)});
+educationShow.addEventListener('click', () => {showContent(educationContent, educationHide, educationShow)});
+educationNavLink.addEventListener('click', () => {showContent(educationContent, educationHide, educationShow)});
+
+//----- skills -----//
+
+skillHide.addEventListener('click', () => {hideContent(skillContent, skillHide, skillShow)});
+skillShow.addEventListener('click', () => {showContent(skillContent, skillHide, skillShow)});
+skillsNavLink.addEventListener('click', () => {showContent(skillContent, skillHide, skillShow)});
+
+//----- projects -----//
+
+projectsHide.addEventListener('click', () => {hideContent(projectsContent, projectsHide, projectsShow)});
+projectsShow.addEventListener('click', () => {showContent(projectsContent, projectsHide, projectsShow)});
+projectsNavLink.addEventListener('click', () => {showContent(projectsContent, projectsHide, projectsShow)});
+
+//----- employment -----//
+
+employmentHide.addEventListener('click', () => {hideContent(employmentContent, employmentHide, employmentShow)});
+employmentShow.addEventListener('click', () => {showContent(employmentContent, employmentHide, employmentShow)});
+employmentNavLink.addEventListener('click', () => {showContent(employmentContent, employmentHide, employmentShow)});
+
+
+//----- interests -----//
+
+interestHide.addEventListener('click', () => {hideContent(interestContent, interestHide, interestShow)});
+interestShow.addEventListener('click', () => {showContent(interestContent, interestHide, interestShow)});
+interestsNavLink.addEventListener('click', () => {showContent(interestContent, interestHide, interestShow)});
+
+//----- home button -----//
+
+homeButton.addEventListener('click', () => {
+    hideContent(educationContent, educationHide, educationShow);
+    hideContent(skillContent, skillHide, skillShow);
+    hideContent(projectsContent, projectsHide, projectsShow);
+    hideContent(employmentContent, employmentHide, employmentShow);
+    hideContent(interestContent, interestHide, interestShow);
+}
+)

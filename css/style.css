@@ -41,8 +41,8 @@ body {
 
 .about-me-content,
 .interests-list,
+.projects, 
 #education-content,
-#projects-content,
 #employment-content,
 #skills-grid-container {
   padding: 0 2rem;
@@ -341,7 +341,7 @@ padding-left: 0;
 }
 
 .accent {
-  color: #21d4f3;
+  color: #2196F3;
 }
 
 /* =================== interests section ================== */

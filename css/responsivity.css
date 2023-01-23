@@ -1,4 +1,15 @@
 @media only screen and (max-width: 960px) {
+
+    .about-me-content,
+    .interests-list,
+    .projects, 
+    #education-content,
+    #employment-content,
+    #skills-grid-container {
+        padding: 0 3%;
+        }
+
+        
     /* ========= main-header/navigation ========== */
 
     .main-header {
@@ -62,6 +73,14 @@
 }
 
 @media only screen and (max-width: 650px) {
+
+    .bright-container, .dark-container{
+        margin: 3% 5%;
+    }
+
+
+    
+
     /* ========= main-header/navigation ========== */
 
     .main-header-span {
@@ -84,7 +103,9 @@
      
     /* ========= projects ========== */
 
-    .project {
+
+
+    .project, .property-title {
         display: block;
     }
 

@@ -244,9 +244,9 @@ border: 2px solid #2196F3;
   border-radius: 4px 0 0 4px;
 }
 
-.skill.html {width: 40%; background-color: #2196F3;} 
-.skill.css {width: 40%; background-color: #2196F3;} 
-.skill.js {width: 35%; background-color: #2196F3;} 
+.skill.html {width: 50%; background-color: #2196F3;} 
+.skill.css {width: 50%; background-color: #2196F3;} 
+.skill.js {width: 45%; background-color: #2196F3;} 
 .skill.git {width: 40%; background-color: #2196F3;} 
 .skill.eng {width: 70%; background-color: #2196F3;}
 .skill.scrum {width: 50%; background-color: #2196F3;}
